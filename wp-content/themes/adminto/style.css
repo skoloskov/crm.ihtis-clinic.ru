@@ -1,0 +1,50 @@
+/*
+Theme Name: Адаптация Adminto
+Author: Колосков Сергей
+Author URI: https://digital-progress.ru/
+Description: Адаптация шаблона Adminto к CMS WordPress.
+Requires PHP: 7.4
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+#error_message {
+    text-align: center;
+}
+
+.error {
+    display: block;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+
+.pacient_form_gener_group {
+    padding-left: 20px;
+}
+
+.submit_pacient_block {
+    width: 100%;
+    text-align: right;
+    padding: 15px 0;
+}
+
+
