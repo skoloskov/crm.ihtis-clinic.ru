@@ -1455,7 +1455,7 @@ function wp_title( $sep = '&raquo;', $display = true, $seplocation = '' ) {
 /**
  * Displays or retrieves page title for post.
  *
- * This is optimized for single.php template file for displaying the post title.
+ * This is optimized for single-patient.php template file for displaying the post title.
  *
  * It does not support placing the separator after the title, but by leaving the
  * prefix parameter empty, you can set the title separator manually. The prefix

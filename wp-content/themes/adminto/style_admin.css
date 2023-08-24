@@ -1,4 +1,14 @@
-.paceint_metabox_name_field {
+.paceint_metabox_name_field, .metabox_name_field {
     width: 150px;
     display: inline-block;
+}
+
+.reception_type_tab {
+    display: none;
+}
+
+
+#reception_type_konsultacziya:checked ~ #reception_type_konsultacziya_text,
+#reception_type_manipulyacziya:checked ~ #reception_type_manipulyacziya_text {
+    display: block;
 }

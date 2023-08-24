@@ -2458,7 +2458,7 @@ function comment_form( $args = array(), $post = null ) {
 
 	// Identify required fields visually and create a message about the indicator.
 	$required_indicator = ' ' . wp_required_field_indicator();
-	$required_text      = ' ' . wp_required_field_message();
+	// $required_text      = ' ' . wp_required_field_message();
 
 	$fields = array(
 		'author' => sprintf(

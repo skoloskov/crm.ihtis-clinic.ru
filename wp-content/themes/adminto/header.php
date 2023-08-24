@@ -11,6 +11,16 @@
     <link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/favicon.ico">
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/morris/morris.css">
+    <!-- Plugins css-->
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/multiselect/css/multi-select.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/mjolnic-bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
     <!-- App css -->
     <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/icons.css" rel="stylesheet" type="text/css" />
@@ -214,6 +224,9 @@
                                 </ul>
                             </li>
                         </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="/patient/"><i class="mdi mdi-layers"></i> <span> Пациенты </span> </a>
                     </li>
                 </ul>
                 <!-- End navigation menu -->
